@@ -1,0 +1,197 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+/* New Styles for the Merged HTML Structure */
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* Add this line to center the container */
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Original Profile Card Styles */
+.profile-card {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-card img {
+    max-width: 70%;
+    border-radius: 25%;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 10px 0 5px;
+}
+
+.header h2 {
+    margin: 5px 0;
+    color: #555;
+}
+
+.description {
+    color: #777;
+}
+
+.action-button {
+    padding: 20px 20px;
+    background-color: #b30071;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #0600b3;
+}
+
+/* New Styles for the Merged HTML Structure */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#profile-image img {
+    max-width: 70%;
+    border-radius: 25%;
+}
+
+#personal-info h1 {
+    color: #b30071;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+    line-height: 1.2;
+}
+
+#personal-info h2 {
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.3;
+}
+
+#personal-info .description {
+    color: #777;
+}
+
+#personal-info .action-button {
+    background-color: #b30071;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#social-links .list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+#social-links .list-inline > li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#social-links a {
+    color: #b30071;
+    text-decoration: none;
+}
+
+#social-links a:hover {
+    color: #b30071;
+}
+
+/* Media Queries for Responsive Design */
+
+/* For screens up to 960px width */
+@media (max-width: 960px) {
+  .container {
+      max-width: 700px;
+  }
+}
+
+/* For screens up to 720px width */
+@media (max-width: 720px) {
+  .container {
+      max-width: 500px;
+  }
+
+  .profile-card img {
+      max-width: 100%;
+      border-radius: 50%;
+  }
+}
+
+/* For screens up to 540px width */
+@media (max-width: 540px) {
+  .container {
+      max-width: 300px;
+  }
+
+  .card {
+      padding: 10px;
+  }
+
+  .header h1 {
+      font-size: 1.5em;
+  }
+
+  .header h2 {
+      font-size: 1em;
+  }
+
+  .description {
+      font-size: 0.9em;
+  }
+
+  .action-button {
+      padding: 8px 15px;
+  }
+
+  .social-links li {
+      margin-right: 5px;
+  }
+}
